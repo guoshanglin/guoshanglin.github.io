@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+        background: #ffffff;
+}
+.nav {
+	background-color: #595959;
+	color: #ffffff;
+	list-style: none;
+	text-align: right;
+	margin: 0;
+	padding: 20px 0 20px 0;
+	width: 100%;
+}
+.logo > a {
+	float: left;
+	vertical-align:middle;
+	padding-left: 30px;
+	font-family: 'Yellowtail', cursive;
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	margin-top: -7px;
+}
+.nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+}
+.nav > li > a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.nav > li > a:hover {
+	color: #c1c1c1;
+}
+.banner {
+	width: 100%;
+	display: block;
+}
+.banner > .banner-image {
+	width: 100%;
+	display: block;
+}
+.tasks {
+	width: 1000px;
+	margin: 0 auto;
+}
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	padding: 10px 0;
+}
+.task-one {
+	width: 898px;
+	padding: 0.5px;
+}
+.task-one > p {
+	font-size: 14px;
+	color: #636363;
+	max-width: 850;
+	text-align: justify;
+	line-height: 150%;
+}
+.task-two {
+	width: 898px;
+	padding: 0.5px;
+}
+.task-two > p {
+	font-size: 14px;
+	color: #636363;
+	max-width: 850;
+	text-align: justify;
+}
+.page {
+	margin: 0 auto 0 auto;
+	text-align: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height: 1350px;
+}
+.header {
+	margin-top: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
