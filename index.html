@@ -10,29 +10,45 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yellowtail" >
+<script type="text/javascript" src="script.js"></script>
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 <body class="w3-light-grey">
 
-<!-- Page Header -->
-<div class = "header">
-    <ul class="nav">
-        <li>
-          <a href ="index.html"><img lazyload="true" class="image lazy-loaded" alt="Shanglin Guo" width="18" height="18" src="profile.png"></a>
-        </li>
-        <li><a href = "https://docs.google.com/presentation/d/1AabR83EHIr7bm7biFay3SRzSeG6Yzwewwnce8knA_34/edit?usp=sharing">Links</a></li>
-        <li><a href = "../project/index.html">Projects</a></li>
-        <li><a href = "Shanglin_Guo_resume_safe.pdf">Resume</a></li>
-        <li class="right"><a href="mailto:hi@guosl.com" target="_top">hi@guosl.com</a></li>
-    </ul>
-</div>
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-dark-grey w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="guosl.com" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="https://docs.google.com/presentation/d/1AabR83EHIr7bm7biFay3SRzSeG6Yzwewwnce8knA_34/edit?usp=sharing" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LINK</a>
+      <a href="../project/index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT</a>
+      <a href="Shanglin_Guo_resume_safe.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESUME</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">BLOG <i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">A</a>
+          <a href="#" class="w3-bar-item w3-button">B</a>
+          <a href="#" class="w3-bar-item w3-button">ALL POSTS</a>
+        </div>
+      </div>
+      <a href="mailto:hi@guosl.com" class="w3-padding-large w3-hover-grey w3-hide-small w3-right w3-button">hi@guosl.com</a>
+    </div>
+  </div>
+  
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navSmall" class="w3-bar-block w3-dark-grey w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="https://docs.google.com/presentation/d/1AabR83EHIr7bm7biFay3SRzSeG6Yzwewwnce8knA_34/edit?usp=sharing" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LINK</a>
+    <a href="../project/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECT</a>
+    <a href="Shanglin_Guo_resume_safe.pdf" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESUME</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BLOG</a>
+  </div>
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
   <!-- The Grid -->
-  <div class="w3-row-padding">
+  <div class="w3-row-padding" style="margin-top:46px;">
   
     <!-- Left Column -->
     <div class="w3-third">
@@ -41,43 +57,69 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-display-container">
           <img src="profile.jpg" style="width:100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-black">
-            <div class="logo"><a style="padding-bottom: 15px;font-size: 60px;">Shanglin Guo</a></div>
+            <div class="logo"><a style="padding-bottom: 15px;font-size: 2em;">Shanglin Guo</a></div>
           </div>
         </div>
+
         <div class="w3-container">
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-university w3-margin-right w3-text-teal"></i>Education</b></p>
+          <div class="w3-container">
+              <h5 class="w3-opacity"><b>Columbia University</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2018 – Dec 2019 (Expected)</h6>
+              <p>
+                M.S. in Electrical Engineering <br/>
+                GPA 4.00/4.00
+                <li>Courses: Internet of Things, Computer Networking Laboratory, Embedded Systems</li>
+                <li>Research: Wireless & Mobile Networking (WiMNet) Research Lab</li>
+              </p>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>The Hong Kong Polytechnic University</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2018</h6>
+              <p>
+                B.Eng (Hons) in Electronic & Information Engineering <br/>
+                GPA 3.76/4.00
+              </p>
+              <hr>
+            </div>
+          <br>
+
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Adobe Photoshop</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Photography</p>
+          <p>Internet of Things</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
               <div class="w3-center w3-text-white">80%</div>
             </div>
           </div>
-          <p>Illustrator</p>
+          <p>Embedded System Design</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">
+              <div class="w3-center w3-text-white">70%</div>
+            </div>
           </div>
-          <p>Media</p>
+          <p>Amazon Web Services</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:65%">65%</div>
+          </div>
+          <p>Linux</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
           </div>
           <br>
 
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
+          <p>Python</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:90%"></div>
           </div>
-          <p>Spanish</p>
+          <p>C/C++</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:60%"></div>
           </div>
-          <p>German</p>
+          <p>SystemVerilog</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:30%"></div>
           </div>
           <br>
         </div>
@@ -92,42 +134,59 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b>Research Assistant / WiMNet Research Lab, Columbia University</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <div style="font-size: 14px">
+            <li>Participating in the Columbia FlexICoN (Full-duplex Wireless: From Integrated Circuits to Networks) project which focuses on the design and implementation of full-duplex wireless communication testbed</li>
+            <li>Currently working on upgrading the custom-designed full-duplex radios, that consists of a full-duplex (FD) transceiver using the USRP N210 SDR and a customized RF canceller</li>
+            <li>Focusing on embedded programming on the Arduino Due to interface with the RF canceller via SPI protocol, and optimizing the SPI performance on the Arduino Due</li>
+          </div>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <h5 class="w3-opacity"><b>Research Assistant / Brno University of Technology</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2017 - Aug 2017</h6>
+          <div style="font-size: 14px">
+            <li>Developed and investigated node localization methods (RSSI, ToA) for Bluetooth wireless networks in C</li>
+            <li>Implemented the localization methods on AVR microcontrollers as nodes, analyzed the result and optimized the localization methods based on the location error observed in lab experiments</li>
+          </div>
           <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
         </div>
       </div>
 
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file-powerpoint-o fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Musical Stimulus Visualization</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2019 - May 2019</span></h6>
+            <div style="font-size: 14px">
+              <li>Implemented on the FPGA a memory-mapped peripheral, and communicated with the peripheral through C program running on the Linux kernel that can access a device driver</li>
+              <li>Developed a C program that runs on an ARM-based hard processor system (HPS), performing a Fast Fourier Transform (FFT) and noise suppression on audio input received from a USB microphone</li>
+              <li>Modified the device driver that implements an ioctl to mediate between the C program and the FPGA peripheral</li>
+              <li>Designed a Serial-in, Parallel-out (SIPO) shift register in hardware to buffer the data input from software and output the parallel data to a VGA monitor for musical stimulus visualization</li>
+            </div>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Smart Pet Care</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2019 - May 2019</h6>
+            <div style="font-size: 14px">
+              <li>Developed a smart monitoring system that detects and monitors the status of the pet using convolutional neural network running on the Google Vision Kit and monitors the weight of the pet using a weight sensor</li>
+              <li>Implemented an indoor localization system to calculate the daily activity level of the pet, which involves using three Raspberry Pi scanners and an Apple iBeacon tag attached to the pet</li>
+              <li>Integrated AWS IoT platform that receives the data collected by the Raspberry Pi via MQTT protocol, and used SQL statement for data cleaning, AWS Lambda functions and DynamoDB for data processing and storage</li>
+              <li>Finally, achieved intelligent nutrition feeding based on the weight and daily activity level of the pet</li>
+            </div>
+            <hr>
+          </div>
+          <div class="w3-container">
+              <h5 class="w3-opacity"><b>Juniper Networks/Comcast SDN Throwdown Competition 2019</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2019</h6>
+              <div style="font-size: 14px">
+                <li>Developed a creative solution using the Juniper Networks NorthStar SDN Controller, with a combination of networking and programming to solve real-world issues such as random link failures and load balancing</li>
+                <li>Optimized the given network infrastructure, which consists of 2 servers and 12 routers across the US, and through monitoring and planning, finally achieved the dynamical provision of explicit routing paths using segment routing</li>
+              </div>
+              <hr>
+            </div>
         </div>
       </div>
 

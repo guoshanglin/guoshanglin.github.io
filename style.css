@@ -6,17 +6,6 @@ body {
 	color: #000000;
     background: #ffffff;
 }
-.nav {
-	background-color: #616161;
-	color: #ffffff;
-	list-style: none;
-	list-style-type: none;
-	text-align: right;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	overflow: hidden;
-}
 .logo > a {
 	float: left;
 	vertical-align:middle;
@@ -24,30 +13,4 @@ body {
 	font-size: 20px;
 	text-decoration: none;
 	color: #ffffff;
-}
-.nav > li {
-	float: left;
-}
-.nav > li > a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-.nav > li > a:hover {
-	color: #c1c1c1;
-}
-.nav > li.right {float: right;}
-@media screen and (max-width: 600px) {
-	.nav li.right,
-	.nav li {float: none;}
-}
-.banner {
-	width: 100%;
-	display: block;
-}
-.banner > .banner-image {
-	width: 100%;
-	display: block;
 }
