@@ -14,43 +14,35 @@
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 <body class="w3-light-grey">
-
-<!-- Navbar -->
-<div class="w3-top">
-    <div class="w3-bar w3-dark-grey w3-card">
-      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a href="guosl.com" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-      <a href="https://docs.google.com/presentation/d/1AabR83EHIr7bm7biFay3SRzSeG6Yzwewwnce8knA_34/edit?usp=sharing" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LINK</a>
-      <div class="w3-dropdown-hover w3-hide-small">
-        <button class="w3-padding-large w3-button" title="More">PROJECT <i class="fa fa-caret-down"></i></button>     
-        <div class="w3-dropdown-content w3-bar-block w3-card-4">
-          <a href="https://github.com/Wimnet/flexicon_orbit" class="w3-bar-item w3-button">FlexICoN (Full-duplex Wireless: From Integrated Circuits to Networks)</a>
-          <a href="project/Musical Stimulus Visualization.pdf" class="w3-bar-item w3-button">Musical Stimulus Visualization</a>
-          <a href="project/Throwdown 2019.pdf" class="w3-bar-item w3-button">Juniper Networks/Comcast SDN Throwdown Competition 2019</a>
-          <a href="https://iotcolumbia2019glzz.weebly.com/" class="w3-bar-item w3-button">Smart Pet Care</a>
-          <a href="project/Smart Helmet/index.html" class="w3-bar-item w3-button">Smart Helmet</a>
-          <a href="project/5G Smart Grid.pdf" class="w3-bar-item w3-button">5G Smart Grid</a>
-        </div>
+  <div class="topnav" id="myTopnav">
+    <a href="http://guosl.com/" class="active">HOME</a>
+    <a href="https://docs.google.com/presentation/d/1AabR83EHIr7bm7biFay3SRzSeG6Yzwewwnce8knA_34/edit?usp=sharing">LINK</a>
+    <div class="dropdown">
+      <button class="dropbtn">PROJECT 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="https://github.com/Wimnet/flexicon_orbit" target="_blank">FlexICoN (Full-duplex Wireless: From Integrated Circuits to Networks)</a>
+        <a href="project/Musical Stimulus Visualization.pdf" target="_blank">Musical Stimulus Visualization</a>
+        <a href="project/Throwdown 2019.pdf" target="_blank">Juniper Networks/Comcast SDN Throwdown Competition 2019</a>
+        <a href="https://iotcolumbia2019glzz.weebly.com/" target="_blank">Smart Pet Care</a>
+        <a href="project/Smart Helmet/index.html" target="_blank">Smart Helmet</a>
+        <a href="project/5G Smart Grid.pdf" target="_blank">5G Smart Grid</a>
       </div>
-      <a href="Shanglin_Guo_resume_safe.pdf" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESUME</a>
-      <div class="w3-dropdown-hover w3-hide-small">
-        <button class="w3-padding-large w3-button" title="More">BLOG <i class="fa fa-caret-down"></i></button>     
-        <div class="w3-dropdown-content w3-bar-block w3-card-4">
-          <a href="#" class="w3-bar-item w3-button">A</a>
-          <a href="#" class="w3-bar-item w3-button">B</a>
-          <a href="#" class="w3-bar-item w3-button">ALL POSTS</a>
-        </div>
-      </div>
-      <a href="mailto:sg3640@columbia.edu" class="w3-padding-large w3-hover-grey w3-hide-small w3-right w3-button">CONTACT</a>
     </div>
-  </div>
-  
-  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-  <div id="navSmall" class="w3-bar-block w3-dark-grey w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <a href="https://docs.google.com/presentation/d/1AabR83EHIr7bm7biFay3SRzSeG6Yzwewwnce8knA_34/edit?usp=sharing" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LINK</a>
-    <a href="../project/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECT</a>
-    <a href="Shanglin_Guo_resume_safe.pdf" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESUME</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BLOG</a>
+    <a href="Shanglin_Guo_resume_safe.pdf" target="_blank">RESUME</a>
+    <div class="dropdown">
+      <button class="dropbtn">BLOG 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#" target="_blank">A</a>
+        <a href="#" target="_blank">B</a>
+        <a href="#" target="_blank">ALL POSTS</a>
+      </div>
+    </div>
+    <a href="mailto:sg3640@columbia.edu">CONTACT</a>
+    <a style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 
 <!-- Page Container -->
