@@ -1,0 +1,15 @@
+wget https://www.guosl.com/tcping_0.3-0_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/v2ray-geoip_202210200105-1_all.ipk
+wget https://www.guosl.com/v2ray-geosite_20221023064040-1_all.ipk
+wget https://www.guosl.com/brook_20230122-0_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/hysteria_1.3.2-1_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/naiveproxy_109.0.5414.74-2-1_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/shadowsocks-rust-sslocal_1.15.2-1_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/shadowsocks-rust-ssserver_1.15.2-1_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/shadowsocksr-libev-ssr-local_2.5.6-9_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/shadowsocksr-libev-ssr-redir_2.5.6-9_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/shadowsocksr-libev-ssr-server_2.5.6-9_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/simple-obfs-client_0.0.5-0_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/v2ray-plugin_5.2.0-1_aarch64_cortex-a53.ipk
+wget https://www.guosl.com/luci-app-passwall2_1.6_all.ipk
+wget https://www.guosl.com/luci-i18n-passwall2-zh-cn_unknown_all.ipk
